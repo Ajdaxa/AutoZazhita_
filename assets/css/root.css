@@ -2,9 +2,10 @@
 	--color-primary: #1924b1;
 	--color-text: #262626;
 	--color-text-light: #818698;
+    --color-bg-secondary: #F6F6F6;
 }
 body{
-    background-color: #F6F6F6;
+    background-color: var(--color-bg-secondary);
 }
 .wrapper{
     display: flex;

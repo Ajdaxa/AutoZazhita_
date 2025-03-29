@@ -12,7 +12,18 @@
 	gap: 20px;
     flex-wrap: wrap;
 }
-.catalog__item {
+.catalog__card{
+	border: 1px solid #ebebeb;
+	cursor: pointer;
+	transition: .3s ease-in-out;
+}
+.catalog__card:hover{
+	/* box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.25); */
+	transition: .3s ease-in-out;
+	background-color: #f8f8f8;
+}
+.catalog__card:active{
+	/* box-shadow: 0 0px 0 rgba(0, 0, 0, 0.25); */
 }
 .catalog__card {
 	background-color: #fff;

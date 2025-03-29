@@ -15,8 +15,10 @@
 	gap: 20px;
 }
 .benefits__item {
+	
 }
 .benefits__card {
+	border: 1px solid #ebebeb;
 	background-color: #f6f6f6;
 	border-radius: 15px;
 	padding: 20px;
