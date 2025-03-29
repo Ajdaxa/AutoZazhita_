@@ -1,0 +1,52 @@
+.hero {
+    position: relative;
+    height: 325px;
+}
+
+.hero__container {
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+}
+.hero__title {
+    font-size: 2.3rem;
+    font-weight: 600;
+}
+
+.hero_desc {
+    font-size: .90rem;
+    /* font-weight: 600; */
+    max-width: 512px;
+    color: var(--color-text-light);
+}
+
+.hero__img {
+    position: absolute;
+    right: 20%;
+    bottom: 3%;
+    width: 532px;
+}
+
+.hero__actions {
+    display: flex;
+    gap: 20px;
+    margin-top:auto;
+}
+.hero__actions button{
+    font-size: 1rem;
+    padding: 15px 20px;
+    border-radius: 15px;
+}
+.hero__btn-buy {
+    background-color: var(--color-primary);
+    color: #fff;
+}
+
+.hero__btn-extend {
+    color: var(--color-primary);
+    background-color: #f0f4fd;
+}
